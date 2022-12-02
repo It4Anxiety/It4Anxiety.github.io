@@ -1,4 +1,3 @@
-# My blog
+# IT4Anxiety
 
-This is my portfolio made with the [hugo profile theme](https://github.com/gurusabarish/hugo-profile). <br>
-> You can consult it at the address : https://rakk0o.aphorya.fr/
+IT4Anxiety supports the implementation of innovative solutions with the objective of reducing the anxiety of patients suffering from mental disorders. More informations on this site : https://www.it4anxiety.eu/
