@@ -9,7 +9,7 @@ tags:
 
 ## Subject
 
-The objective of this project was to create a website gathering the different internship offers, and displaying the companies looking for or having an intern. It was possible to search for an offer, to modify, to add and to delete it. These were classified by skills in order to obtain a relevant search result.
+The objective of this project was to create a website gathering the different internship offers, and displaying the companies looking for or having an intern. It was possible to search for an offer, to modify, to add and to delete it. These were classified by skills in order to obtain a relevant search.
 
 ## Problem
 
