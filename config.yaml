@@ -1,6 +1,6 @@
-baseURL: "https://rakk0o.aphorya.fr"
+baseURL: "https://it4anxiety.github.io/"
 languageCode: "en-us"
-title: "Clémence FALIGOT"
+title: "IT4Anxiety"
 theme: hugo-profile
 
 Paginate: 3
@@ -22,14 +22,15 @@ Menus:
 params:
   socialShare: false
 
-  title: "Clémence Faligot"
-  description: This blog gathers the different projects I realized during my schooling but also as personnal projetcs.
+  title: "IT4Anxiety"
+  description: 
+IT4Anxiety accompagne la mise en place de solutions innovantes visant à réduire l'anxiété des patients souffrant de troubles mentaux. Vous trouverez plus d'informations sur les liens suivants.
   # staticPath: ""  # The path to serve the static files from
   favicon: "/img/logo.png"
 
   theme:
     disableThemeToggle: false
-    # defaultTheme: "light" # dark
+    defaultTheme: "light" # dark
 
   # font:
   #   fontSize: 1.5rem # default: 1rem
@@ -71,10 +72,11 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Clémence."
-    subtitle: "Engineering student in computer science"
-    content: "Currently in engineering school at CESI. I have always been curious and wanted to learn new skills and create things. I am looking for a rewarding experience. I like to take on challenges and give the best of myself. I always work with rigor and respect, while remaining attentive"
+    # intro: ""
+    title: "IT4Anxiety"
+    subtitle: "EU Project"
+    content: "
+IT4Anxiety accompagne la mise en place de solutions innovantes visant à réduire l'anxiété des patients souffrant de troubles mentaux. Vous trouverez plus d'informations sur les liens suivants."
     image: "/img/me.png"
     button:
       enable: true
