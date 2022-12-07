@@ -23,8 +23,7 @@ params:
   socialShare: false
 
   title: "IT4Anxiety"
-  description: 
-IT4Anxiety accompagne la mise en place de solutions innovantes visant à réduire l'anxiété des patients souffrant de troubles mentaux. Vous trouverez plus d'informations sur les liens suivants.
+  description: "IT4Anxiety accompagne la mise en place de solutions innovantes visant à réduire l'anxiété des patients souffrant de troubles mentaux. Vous trouverez plus d'informations sur les liens suivants."
   # staticPath: ""  # The path to serve the static files from
   favicon: "/img/logo.png"
 
