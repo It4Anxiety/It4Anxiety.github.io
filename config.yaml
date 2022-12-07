@@ -5,213 +5,17 @@ theme: hugo-profile
 
 Paginate: 3
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
 params:
   socialShare: false
 
   title: "IT4Anxiety"
-  description: "IT4Anxiety accompagne la mise en place de solutions innovantes visant à réduire l'anxiété des patients souffrant de troubles mentaux."
+  description: ""
   # staticPath: ""  # The path to serve the static files from
   favicon: "/img/logo_it.png"
 
   theme:
     disableThemeToggle: false
     defaultTheme: "light" # dark
-
-  # font:
-  #   fontSize: 1.5rem # default: 1rem
-  #   fontWeight: 500 # default: 400
-  #   lineHeight: 1 # default: 1.5
-  #   textAlign: right # default: left
-
-  # color preference
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
-
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
-
-  # If you want to customize the menu, you can change it here
-  # navbar:
-  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-  #   brandName: "Profile" # Brand name for the brand | default is the title variable
-
-  #   menus:
-  #     disableAbout: true
-  #     disableExperience: true
-  #     disableEducation: true
-  #     disableProjects: true
-  #     disableAchievements: true
-  #     disableContact: true
-
-  # Hero
-  hero:
-    enable: true
-    # intro: ""
-    title: "IT4Anxiety"
-    # subtitle: "EU Project"
-    content: |
-      **FR** : IT4Anxiety accompagne la mise en place de **solutions innovantes** visant à **réduire l'anxiété** des patients souffrant de troubles mentaux. 
-      Vous trouverez plus d'informations sur les liens suivants. <br>
-      **EN** : IT4Anxiety supports the implementation of **innovative solutions** with the objective of **reducing the anxiety** of patients suffering from mental disorders. 
-      More informations on the links below.
-    image: "/img/IT4Anxiety_Logo.png"
-    socialLinks:
-      fontAwesomeIcons:
-        - icon: fas fa-globe
-          url: https://www.nweurope.eu/projects/project-search/it4anxiety-managing-anxiety-via-innovative-technologies-for-better-mental-health/
-        - icon: fas fa-globe
-          url: http://it4anxiety-wallonie.be/
-        - icon: fab fa-linkedin
-          url: https://www.linkedin.com/company/it4anxiety
-        - icon: fab fa-twitter
-          url: https://twitter.com/it4anxiety
-        - icon: fab fa-youtube
-          url: https://www.youtube.com/channel/UCFTlfH3D6GtQj1ffESYI3yg
-        - icon: fab fa-facebook
-          url: https://www.facebook.com/IT4Anxiety
-
-  # About
-  about:
-    enable: false
-    title: "About Me"
-    image: "/img/IT4AnxietyLogo.svg"
-    content: |-
-      I am a student engineer with a passion for networks in general. I am currently studying computer science, and I am very interested in the SRE profession. I am passionate about art and music, I have practiced a few years in conservatory. I also love to travel and discover new cultures and landscapes.
-    skills:
-      enable: true
-      title: "Here are a few technologies I've been working with recently:"
-      items:
-        - "HTML"
-        - "Python"
-        - "CSS"
-        - "Ansible"
-        - "C++"
-        - "Kubernetes"
-        - "C#" 
-        - "Docker"
-        - "GitLab"
-        - "SQL"
-
-  # Experience
-  experience:
-    enable: false
-    items:
-      - job: "Networks and Infrastructure (Internship)"
-        company: "Linguanomics RD"
-        companyUrl: "https://www.linguanomics.com/"
-        date: "Jan 2022 - Apr 2022"
-        content: |
-          Setting up a VPN, using Docker. Automating installations via Ansible and Kubernetes. Virtualization.
-        featuredLink:
-          enable: true
-          name: "Letter of appreciation (fr)"
-          url: "https://drive.google.com/file/d/1of4V3SsI3ZlIMb_W6Yv9B1Wo5f7FJGfj/view?usp=sharing"
-
-      - job: "User support (Internship)"
-        company: "Faurecia"
-        companyUrl: "http://faurecia.com/"
-        date: "Apr 2021 - Jul 2021"
-        content: |
-          Worked in an IT team as user support, took part in internal migrations, routines, ITOPE audit preparation, Raspberry Pi configuration.
-      
-      - job: "Summer auxiliary"
-        company: "Société générale"
-        companyUrl: "https://particuliers.societegenerale.fr/"
-        date: "July 2021"
-        content: |
-          Greeted and gave physical and telephone orientation to customers. Performed routine operations at the counter according to safety rules and instructions.
-
-      - job: "Order picker"
-        company: "Vynex"
-        companyUrl: "https://www.rocket.eu/"
-        date: "Sep 2020 - Dec 2021"
-        content: |
-          Picking and gathering of furniture hardware items in the quantity specified by the order prior to order shipment.
-  # Education
-  education:
-    enable: true
-    title: |-
-      Autres liens utiles | Other usefull links
-    # index: true
-    items:
-      - title: "Engineering diploma in Computer Science"
-        school:
-          name: "CESI"
-          url: "https://ecole-ingenieurs.cesi.fr/en/"
-        content: |-
-          During these years I was able to realize several projects (which are detailed below), which allowed me to acquire several technical skills, but also personal. 
-          Indeed, all the projects are done in group and end with a presentation, which trains us in project management and oral expression.
-      - title: "Training for professionals"
-        school:
-          name: "e-learning platform"
-          url: "https://ehealth.training/"
-        content: |-
-          **FR** : Cette plateforme de formation réalisée dans le cadre du projet IT4Anxiety, propose des formations pour les **professionnels de santé**, mais également pour les **futurs professionnels de santé**. <br>
-          **EN** : This training platform, created within the framework of the IT4Anxiety project, offers training for **health professionals**, but also for **future health professionals**.
-
-  # Achievements
-  achievements:
-    enable: false
-    items:
-      - title: CSS
-        content: HackerRank certificate, obtained on 10/04/2022.
-        url: https://www.hackerrank.com/certificates/e87996b8aa23
-
-      - title: Python (Basic)
-        content: HackerRank certificate, otained on 10/03/2022.
-        url: https://www.hackerrank.com/certificates/3e96baaef945
-
-      - title: SQL (Basic)
-        content: HackerRank certificate, otained on 10/03/2022.
-        url: https://www.hackerrank.com/certificates/ffe369a0bb6e
-
-      - title: Cisco CCNA1
-        content: Obtained on 05/02/2021.
-        url: https://drive.google.com/file/d/1vcvTn1GfK8FJ6660m45GcfArKIjkxuOn/view?usp=sharing
-
-      - title: Driving licence
-        # content: 
-        # url: 
-      
-      - title: BIA
-        content: Aeronautical initiation certificate.
-        # url: 
-
-  # projects
-  projects:
-    enable: false
-
-# personnal project
-    items:
-      - title: Aphorya (personnal)
-        content: Social network oriented towards the gaming community.
-        image: /img/projects/aphorya.png
-        featured:
-          name: Read more
-          link: https://rakk0o.aphorya.fr/blogs/aphorya/
-
-
-
-                
-
-                          
-
 
   footer:
     recentPosts: false
@@ -220,4 +24,87 @@ params:
       twitter: https://twitter.com/it4anxiety
       youtube: https://www.youtube.com/channel/UCFTlfH3D6GtQj1ffESYI3yg
       facebook: https://www.facebook.com/IT4Anxiety
+
+defaultContentLanguage: fr      
+languages:
+  en:
+    params:
+      # Hero
+      hero:
+        enable: true
+        # intro: ""
+        title: "IT4Anxiety"
+        # subtitle: "EU Project"
+        content: |
+          IT4Anxiety supports the implementation of **innovative solutions** with the objective of **reducing the anxiety** of patients suffering from mental disorders. 
+          More informations on the links below.
+        image: "/img/IT4Anxiety_Logo.png"
+        socialLinks:
+          fontAwesomeIcons:
+            - icon: fas fa-globe
+              url: https://www.nweurope.eu/projects/project-search/it4anxiety-managing-anxiety-via-innovative-technologies-for-better-mental-health/
+            - icon: fas fa-globe
+              url: http://it4anxiety-wallonie.be/
+            - icon: fab fa-linkedin
+              url: https://www.linkedin.com/company/it4anxiety
+            - icon: fab fa-twitter
+              url: https://twitter.com/it4anxiety
+            - icon: fab fa-youtube
+              url: https://www.youtube.com/channel/UCFTlfH3D6GtQj1ffESYI3yg
+            - icon: fab fa-facebook
+              url: https://www.facebook.com/IT4Anxiety
       
+      # Links
+      education:
+        enable: true
+        title: |-
+          Other usefull links
+        # index: true
+        items:
+          - title: "Training for professionals"
+            school:
+              name: "e-learning platform"
+              url: "https://ehealth.training/"
+            content: |-
+              This training platform, created within the framework of the IT4Anxiety project, offers training for **health professionals**, but also for **future health professionals**.
+  fr:
+    params:
+       # Hero
+      hero:
+        enable: true
+        # intro: ""
+        title: "IT4Anxiety"
+        # subtitle: "EU Project"
+        content: |
+          IT4Anxiety accompagne la mise en place de **solutions innovantes** visant à **réduire l'anxiété** des patients souffrant de troubles mentaux. 
+          Vous trouverez plus d'informations sur les liens suivants.
+          
+        image: "/img/IT4Anxiety_Logo.png"
+        socialLinks:
+          fontAwesomeIcons:
+            - icon: fas fa-globe
+              url: https://www.nweurope.eu/projects/project-search/it4anxiety-managing-anxiety-via-innovative-technologies-for-better-mental-health/
+            - icon: fas fa-globe
+              url: http://it4anxiety-wallonie.be/
+            - icon: fab fa-linkedin
+              url: https://www.linkedin.com/company/it4anxiety
+            - icon: fab fa-twitter
+              url: https://twitter.com/it4anxiety
+            - icon: fab fa-youtube
+              url: https://www.youtube.com/channel/UCFTlfH3D6GtQj1ffESYI3yg
+            - icon: fab fa-facebook
+              url: https://www.facebook.com/IT4Anxiety
+      
+      # Links
+      education:
+        enable: true
+        title: |-
+          Autres liens utiles
+        # index: true
+        items:
+          - title: "Formation pour les professionnels"
+            school:
+              name: "plateforme d'e-learning "
+              url: "https://ehealth.training/"
+            content: |-
+              Cette plateforme de formation réalisée dans le cadre du projet IT4Anxiety, propose des formations pour les **professionnels de santé**, mais également pour les **futurs professionnels de santé**. <br>
