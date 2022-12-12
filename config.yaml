@@ -25,7 +25,7 @@ params:
       youtube: https://www.youtube.com/channel/UCFTlfH3D6GtQj1ffESYI3yg
       facebook: https://www.facebook.com/IT4Anxiety
 
-defaultContentLanguage: fr      
+defaultContentLanguage: en      
 languages:
   en:
     params:
