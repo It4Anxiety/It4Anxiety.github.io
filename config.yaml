@@ -1,7 +1,7 @@
 baseURL: "https://it4anxiety.github.io/"
 languageCode: "fr-FR"
 title: "IT4Anxiety"
-theme: hugo-profile
+theme: it4anxiety
 
 Paginate: 3
 
@@ -55,18 +55,81 @@ languages:
               url: https://www.facebook.com/IT4Anxiety
       
       # Links
-      education:
+      professional:
         enable: true
         title: |-
-          Other usefull links
+          Professionals
         # index: true
         items:
-          - title: "Training for professionals"
+          - title: "Training"
             school:
               name: "e-learning platform"
               url: "https://ehealth.training/"
             content: |-
               This training platform, created within the framework of the IT4Anxiety project, offers training for **health professionals**, but also for **future health professionals**.
+      
+      #Startup
+      Startup:
+        enable: true
+        title: |-
+          Start-up
+        # index: true
+        items:
+          - title: "Training"
+            school:
+              name: "150sho"
+              url: "#"
+            content: |-
+              This 
+
+      #User
+      User:
+        enable: true
+        title: |-
+          Users
+        # index: true
+        items:
+          - title: "Training"
+            school:
+              name: "Gamian"
+              url: "#"
+            content: |-
+              This 
+
+      #Family
+      Family:
+        enable: true
+        title: |-
+          Family
+        # index: true
+        items:
+          - title: "Training"
+            school:
+              name: "Similes"
+              url: "#"
+            content: |-
+              This
+
+      #Expert
+      Expert:
+        enable: true
+        title: |-
+          Expert1
+        # index: true
+        items:
+          - title: "Training"
+            school:
+              name: "VUA"
+              url: "#"
+            content: |-
+              This
+          - title: "Training2"
+            school:
+              name: "UU"
+              url: "#"
+            content: |-
+              This
+
   fr:
     params:
        # Hero
@@ -96,7 +159,7 @@ languages:
               url: https://www.facebook.com/IT4Anxiety
       
       # Links
-      education:
+      professional:
         enable: true
         title: |-
           Autres liens utiles
