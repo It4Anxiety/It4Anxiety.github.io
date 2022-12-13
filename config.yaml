@@ -89,7 +89,7 @@ languages:
           Users
         # index: true
         items:
-          - title: "Training"
+          - title: "Title"
             school:
               name: "Gamian"
               url: "#"
@@ -103,7 +103,7 @@ languages:
           Family
         # index: true
         items:
-          - title: "Training"
+          - title: "Title"
             school:
               name: "Similes"
               url: "#"
@@ -114,16 +114,16 @@ languages:
       Expert:
         enable: true
         title: |-
-          Expert1
+          Expert
         # index: true
         items:
-          - title: "Training"
+          - title: "Title"
             school:
               name: "VUA"
               url: "#"
             content: |-
               This
-          - title: "Training2"
+          - title: "Title"
             school:
               name: "UU"
               url: "#"
