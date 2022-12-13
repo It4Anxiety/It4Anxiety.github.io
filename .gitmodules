@@ -1,0 +1,3 @@
+[submodule "themes/it4anxiety"]
+	path = themes/it4anxiety
+	url = https://github.com/It4Anxiety/it4anxiety.git
