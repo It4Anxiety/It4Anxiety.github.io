@@ -58,7 +58,7 @@ languages:
       professional:
         enable: true
         title: |-
-          Professionals
+          For professionals
         # index: true
         items:
           - title: "Training"
@@ -72,7 +72,7 @@ languages:
       Startup:
         enable: true
         title: |-
-          Start-up
+          For startups
         # index: true
         items:
           - title: "Training"
@@ -86,7 +86,7 @@ languages:
       User:
         enable: true
         title: |-
-          Users
+          For users
         # index: true
         items:
           - title: "Title"
@@ -100,7 +100,7 @@ languages:
       Family:
         enable: true
         title: |-
-          Family
+          For families
         # index: true
         items:
           - title: "Title"
@@ -114,7 +114,7 @@ languages:
       Expert:
         enable: true
         title: |-
-          Expert
+          For experts
         # index: true
         items:
           - title: "Title"
