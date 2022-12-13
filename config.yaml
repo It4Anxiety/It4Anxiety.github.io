@@ -22,8 +22,8 @@ params:
     socialNetworks:
       linkedin: https://www.linkedin.com/company/it4anxiety
       twitter: https://twitter.com/it4anxiety
-      youtube: https://www.youtube.com/channel/UCFTlfH3D6GtQj1ffESYI3yg
       facebook: https://www.facebook.com/IT4Anxiety
+      youtube: https://www.youtube.com/channel/UCFTlfH3D6GtQj1ffESYI3yg
 
 defaultContentLanguage: en      
 languages:
