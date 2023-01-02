@@ -53,8 +53,46 @@ languages:
               url: https://www.youtube.com/channel/UCFTlfH3D6GtQj1ffESYI3yg
             - icon: fab fa-facebook
               url: https://www.facebook.com/IT4Anxiety
-      
-      # Links
+      # PARTENERS
+      partener:
+        enable: true
+        items:
+          - job: "Psylaris"
+            company: "Website"
+            companyUrl: "https://www.psylaris.com/en/"
+            content: |
+              Psylaris was founded in 2017 with the mission to reduce waiting lines for mental health problems and improving therapy. Currently, Psylaris is active in over 20 countries with its Virtual Reality and online mental health solutions. Psylaris developed a VR product package (Psylaris Care) including innovative solutions for EMDR, Exposure and Relaxation therapy
+            featuredLink:
+              enable: false
+              name: ""
+              url: ""
+          - job: "Spectre Biotech"
+            company: "Website"
+            companyUrl: "https://www.spectre-biotech.com/"
+            content: |
+               Spectre Biotech wants to put brain imaging at the same level than blood test or ultrasound. It brings into the cloud all the hardware and brain expertise previously only available in research labs & scientific literature, usable in a daily routine and without any education required.
+            featuredLink:
+              enable: false
+              name: ""
+              url: ""
+
+    
+      # STARTUPS
+      ourstart:
+        enable: true
+        items:
+          - job: "Healthy Mind"
+            company: "Website"
+            companyUrl: "https://healthymind.fr/"
+            #date: ""
+            content: |
+              Therapeutic virtual reality to reduce pain and anxiety. We offer healthcare professionals a medical device that combines immersion through virtual reality technology, medical hypnosis and advanced psychology principles to reduce pain and anxiety in their patients.
+            featuredLink:
+              enable: false
+              name: ""
+              url: ""
+              
+      # PROFESSIONAL
       professional:
         enable: true
         title: |-
@@ -129,45 +167,3 @@ languages:
               url: "#"
             content: |-
               This
-
-  fr:
-    params:
-       # Hero
-      hero:
-        enable: true
-        # intro: ""
-        title: "IT4Anxiety"
-        # subtitle: "EU Project"
-        content: |
-          IT4Anxiety accompagne la mise en place de **solutions innovantes** visant à **réduire l'anxiété** des patients souffrant de troubles mentaux. 
-          Vous trouverez plus d'informations sur les liens suivants.
-          
-        image: "/img/IT4Anxiety_Logo.png"
-        socialLinks:
-          fontAwesomeIcons:
-            - icon: fas fa-globe
-              url: https://www.nweurope.eu/projects/project-search/it4anxiety-managing-anxiety-via-innovative-technologies-for-better-mental-health/
-            - icon: fas fa-globe
-              url: http://it4anxiety-wallonie.be/
-            - icon: fab fa-linkedin
-              url: https://www.linkedin.com/company/it4anxiety
-            - icon: fab fa-twitter
-              url: https://twitter.com/it4anxiety
-            - icon: fab fa-youtube
-              url: https://www.youtube.com/channel/UCFTlfH3D6GtQj1ffESYI3yg
-            - icon: fab fa-facebook
-              url: https://www.facebook.com/IT4Anxiety
-      
-      # Links
-      professional:
-        enable: true
-        title: |-
-          Autres liens utiles
-        # index: true
-        items:
-          - title: "Formation pour les professionnels"
-            school:
-              name: "plateforme d'e-learning "
-              url: "https://ehealth.training/"
-            content: |-
-              Cette plateforme de formation réalisée dans le cadre du projet IT4Anxiety, propose des formations pour les **professionnels de santé**, mais également pour les **futurs professionnels de santé**. <br>
