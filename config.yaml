@@ -91,6 +91,16 @@ languages:
               enable: false
               name: ""
               url: ""
+          - job: "Sentimentics"
+            company: "Website"
+            companyUrl: "http://www.sentimentics.com/"
+            #date: ""
+            content: |
+              Sentimentics is a business-to-business and research oriented company which offers you both REST API and on-premises solutions.
+            featuredLink:
+              enable: false
+              name: ""
+              url: ""
               
       # PROFESSIONAL
       professional:
