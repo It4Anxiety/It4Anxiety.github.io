@@ -61,7 +61,7 @@ languages:
             company: "Website"
             companyUrl: "https://www.psylaris.com/en/"
             content: |
-              Psylaris was founded in 2017 with the mission to reduce waiting lines for mental health problems and improving therapy. Currently, Psylaris is active in over 20 countries with its Virtual Reality and online mental health solutions. Psylaris developed a VR product package (Psylaris Care) including innovative solutions for EMDR, Exposure and Relaxation therapy
+              Psylaris was founded in 2017 with the mission to reduce waiting lines for mental health problems and improving therapy. Currently, Psylaris is active in over 20 countries with its Virtual Reality and online mental health solutions. Psylaris developed a VR product package (Psylaris Care) including innovative solutions for EMDR, Exposure and Relaxation therapy.
             featuredLink:
               enable: false
               name: ""
