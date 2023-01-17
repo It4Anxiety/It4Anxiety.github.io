@@ -177,3 +177,11 @@ languages:
               url: "#"
             content: |-
               This
+
+      #Membership
+      contact:
+        enable: true
+        title: Join us
+        content: Do not hesitate to send us an email.
+        email: projet.europeen@saintmartin.ofc.be
+        btnName: Mail us
